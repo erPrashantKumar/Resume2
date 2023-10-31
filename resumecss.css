@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    background-color: bisque;
+    padding: 0%;
+    border: 0;
+}
+
+h1{
+    background-color: azure;
+    display: block;
+    
+}
+
+h4{
+    color: rgb(9, 213, 145);
+}
+span{
+    text-decoration: underline;
+}
+
+h2:hover{
+    background-color: rgb(240, 176, 99);
+    color: rgb(4, 62, 62);
+    text-align: center;
+    display: block;
+}
+
+img{
+    border-radius: 50%;
+    border-width: 10%;
+    background-color: rgb(130, 194, 194);
+    border-color: aqua;
+    border-style: solid;
+}
+
+    /* Position
+        1. static - default value
+        2. relative - dont break flow of html and display as source display
+        3. absolute - breake html flow and shows as parent display
+        4. fixed - fix on the website such as icon on top  
+    */
+
+ .first{
+    color: rgb(4, 62, 62);
+    position: relative;
+    background-color: rgb(240, 176, 99);
+    font-size: 3em;                             /* 1em= 16px = 100% and rem knowns as root em */
+
+    font-family: cursive;
+    text-align: center;
+    display: block;
+    
+    
+}
+
+
+.upper{
+    position: absolute;
+    top: 30%;
+    bottom: 25%;
+}
+
+img{
+    height: 400px;
+    width: 400px;
+    position: fixed;
+    top: 5%;
+    right: 5%;
+}
+
+h3:hover {
+     color: aquamarine;
+}
+
+table:hover{
+    color: rgb(24, 170, 24);
+}
+
+li:hover{
+    color: blue;
+   
+}
+
+ol{
+    color: palevioletred;
+}
+ul{
+    color: rgb(5, 54, 54);
+}
